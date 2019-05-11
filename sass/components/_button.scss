@@ -1,0 +1,10 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        border: 1px solid $color-primary;
+        cursor: pointer;
+        outline: none;
+    }
+
+}

@@ -1,0 +1,32 @@
+.about {
+    background-size: 100%;
+    background-position: center center;
+    position: relative;
+    z-index: 5;
+    .page {
+        &__content {
+            width: 50vw;
+            padding: 3rem;
+            // border: 1px solid #edb61b;
+            overflow: hidden;
+            margin-bottom: auto;
+            .title-secondary {
+            }
+            .caption {
+
+            }
+        }
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

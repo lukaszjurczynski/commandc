@@ -1,0 +1,14 @@
+ &__productions {
+     width: calc(100vw - 2*(140px));
+     height: calc(100vh - 17rem);
+     border: 1px solid #edb61b;
+     border-radius: 5px;
+     overflow: hidden;
+     margin-bottom: auto;
+
+     &__content {
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+     }
+ }
